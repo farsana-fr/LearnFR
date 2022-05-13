@@ -25,6 +25,17 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
     font-weight: bold;
     border:none;
 }
+.navbar-header > .navbar-brand, .navbar-default .navbar-nav > li > a
+{
+    color:white;
+}
+.navbar-header > .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover
+{
+    color:red;
+    opacity:0.75;
+}
+
+
 .home-callout{
 
     margin-top:-20px;
