@@ -50,6 +50,19 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
     color:red;
     opacity:0.75;
 }*/
+/*For Toggle in Nav Bar*/
+.navbar-header .navbar-toggle .icon-bar
+{
+    background:white;
+}
+.navbar-header .navbar-toggle
+{
+    border:3px solid white;
+    &:hover, &:focus
+    {
+        background: black;
+    }
+}
 /*SASS WAY BELOW, see we can nest selectors*/
 .navbar-header > .navbar-brand, .navbar-default .navbar-nav > li > a
 {
